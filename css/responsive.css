@@ -1,0 +1,232 @@
+/* Start resposive for the container  */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    position: relative;
+}
+
+@media (max-width: 767px) { /* mobile screen */
+    .container {
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) { /* small screen */
+    .container {
+        width: 738px
+    }
+}
+
+@media (min-width: 992px) { /* medium screen */
+    .container {
+        width: 962px
+    }
+}
+
+@media (min-width: 1200px) { /* large screen */
+    .container {
+        width: 1170px
+    }
+}
+/* End resposive for the container  */
+
+
+/* Start Header */
+/* End Header */
+
+
+/* Start Servises */
+@media (max-width: 599px) {
+    .servises .box {
+        width: 100%;
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 600px) {
+    .servises .box {
+        width: 50%;
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 992px) {
+    .servises .box {width: 25%}
+}
+/* End Servises */
+
+/* Start Subscripe */
+@media (max-width: 767px) {
+    .subscripe form input[type="email"] {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 300px;
+    }
+
+    .subscripe form button {margin-left: 0}
+}
+/* End Subscripe */
+
+
+/* Start Our Work */
+@media (max-width: 767px) {
+    .our-works .items-box{
+        width: 65% !important;
+        margin: auto;
+    } 
+
+    .our-works .items-box .item {
+        width: 100%;
+        height: 255px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-works .items-box{
+        width: 50% !important;
+        margin: auto
+    } 
+
+    .our-works .items-box .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .our-works {text-align: center}
+
+    .our-works .items-box .item {
+        width: 48%;
+        height: 265.22px;
+        margin-right: 2% !important;
+        margin-left: 1% !important;
+        margin-bottom: 2% !important;
+    }
+
+    .our-works .items-box .item:nth-of-type(2),
+    .our-works .items-box .item:nth-of-type(4),
+    .our-works .items-box .item:nth-of-type(6),
+    .our-works .items-box .item:nth-of-type(8) {
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .our-works .items-box .item {
+        width: 31.33333%;
+        margin-right: 2% !important;
+    }
+}
+/* End Our Works */
+
+
+/* Start Testimonials */
+@media (max-width: 767px) {
+    .testimonials .fa-chevron-right {right: 5%}
+
+    .testimonials .fa-chevron-left {left: 5%}
+
+    .testimonials .fa-chevron-right,
+    .testimonials .fa-chevron-left {
+        top: 85%
+    }
+}
+/* End Testimonials */
+
+
+/* Start Our Team */
+@media (max-width: 767px) {
+    .our-team .box-team {
+        width: 50%;
+        margin: auto
+    }
+
+    .our-team .box-team .person {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 6%;
+    }
+}
+
+@media (min-width: 768px) {
+    .our-team .box-team  {
+        width: 75%;
+        margin: auto;
+    }
+
+    .our-team .box-team .person {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    .our-team .box-team .person.last {
+        margin-right: 0
+    }
+}
+
+@media (min-width: 992px) {
+    .our-team .box-team  {
+        width: 75%;
+        margin: auto;
+    }
+
+    .our-team .box-team .person {
+        width: 47%;
+        margin-right: 6%;
+        margin-top: 3%
+    }
+
+    .our-team .box-team .person.last {
+        margin-right: 0
+    }
+}
+
+@media (min-width: 1200px) {
+    .our-team .box-team  {
+        width: 100%;
+        margin: auto
+    }
+
+    .our-team .box-team .person {
+        width: 23%;
+        margin-left: 2%;
+        margin-right: 0;
+        margin-top: 0
+    }
+}
+/* End Our Team */
+
+
+/* Start Contact */
+@media (max-width: 767px) {
+    .contact form input[type="email"],
+    .contact form input[type="text"] {
+        width: 100% !important;
+        margin-top: 3%;
+    }
+}
+/* End Contact  */
+
+
+/* Start Footer */
+@media (max-width: 767px) {
+    footer {text-align: center}
+
+    footer .copy {
+        float: none;
+        display: block;
+        padding-left: 0;
+    }
+
+    footer .design {
+        float: none;
+        display: block;
+        padding-right: 0;
+        margin-top: 10px
+    }
+}
+/* End Footer */
